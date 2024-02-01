@@ -1,6 +1,6 @@
 {
   "api": {
-    "testapi": {
+    "myapi": {
       "dependsOn": [
         {
           "attributes": [
@@ -8,15 +8,41 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "getItems"
+          "resourceName": "getItemList"
         }
       ],
       "providerPlugin": "awscloudformation",
       "service": "API Gateway"
     }
   },
+  "auth": {
+    "amplifytest": {
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "managed"
+    }
+  },
   "function": {
-    "getItems": {
+    "getItemList": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"

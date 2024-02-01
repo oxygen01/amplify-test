@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/api/v1/items": {
+      "name": "/api/v1/items",
+      "lambdaFunction": "getItemList",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "read"
+        ],
+        "guest": [
+          "read"
+        ]
+      }
+    }
+  }
+}

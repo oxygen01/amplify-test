@@ -13,7 +13,11 @@
     },
     "categories": {
       "function": {
-        "getItems": {}
+        "getItems": {},
+        "getItemList": {}
+      },
+      "auth": {
+        "amplifytest": {}
       }
     }
   }
