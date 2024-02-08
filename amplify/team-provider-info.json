@@ -10,7 +10,8 @@
       "StackName": "amplify-amplifytest-dev-143124",
       "StackId": "arn:aws:cloudformation:eu-central-1:298791555541:stack/amplify-amplifytest-dev-143124/32ce27c0-c106-11ee-bdeb-06f21afcb2df",
       "AmplifyAppId": "d2q25735922ar5",
-      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplifytest-dev-143124-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplifytest-dev-143124-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json",
+      "NetworkStackS3Url": "https://s3.amazonaws.com/amplify-amplifytest-dev-143124-deployment/amplify-cfn-templates/networkingStackTemplate.json"
     },
     "categories": {
       "function": {

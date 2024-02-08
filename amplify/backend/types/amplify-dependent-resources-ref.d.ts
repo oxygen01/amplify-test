@@ -1,5 +1,13 @@
 export type AmplifyDependentResourcesAttributes = {
   "api": {
+    "container9e0fadd2": {
+      "ApiName": "string",
+      "ClusterName": "string",
+      "ContainerNames": "string",
+      "PipelineName": "string",
+      "RootUrl": "string",
+      "ServiceName": "string"
+    },
     "myapi": {
       "ApiId": "string",
       "ApiName": "string",
